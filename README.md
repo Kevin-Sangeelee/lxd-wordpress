@@ -21,6 +21,8 @@ When the script has finished, if all went well, you can connect to the container
 
 From here, things should look like an ordinary VPS, with Apache and Exim running. You should be able to connect to your site and follow on with the standard WordPress configuration wizard.
 
+There are [a few notes here](https://www.susa.net/wordpress/2018/12/lxd-now-runs-my-wordpress/) from when I originally moved to LXD for WordPress.
+
 ## Contributing
 
 This code is simply a generalised version of something I used for my own site. There's plenty of room for improvement, so pull-requests are welcome.
