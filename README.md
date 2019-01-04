@@ -29,7 +29,7 @@ This code is simply a generalised version of something I used for my own site. T
 
 ## License
 
-This project is licensed under the GNU GPLv2 license.
+This project is licensed under the GNU GPLv2.
 
 ## Acknowledgments
 
