@@ -118,6 +118,7 @@ mkdir -p /etc/letsencrypt/acme.sh
 #
 sed -e 's:^[ \t]*SSLCertificateFile.\+$:SSLCertificateFile\t/etc/letsencrypt/acme.sh/cert.pem:' \
     -e 's:^[ \t]*SSLCertificateKeyFile.\+$:SSLCertificateKeyFile\t/etc/letsencrypt/acme.sh/key.pem:' \
+    -e 's:^[ \t]*#SSLCertificateChainFile.\+$:SSLCertificateChainFile\t/etc/letsencrypt/acme.sh/fullchain.pem:' \
     /etc/apache2/sites-available/default-ssl.conf >/tmp/default-ssl.conf
 cat /tmp/default-ssl.conf >/etc/apache2/sites-available/default-ssl.conf
 rm /tmp/default-ssl.conf
