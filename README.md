@@ -27,6 +27,10 @@ There are [a few notes here](https://www.susa.net/wordpress/2018/12/lxd-now-runs
 
 This code is simply a generalised version of something I used for my own site. There's plenty of room for improvement, so pull-requests are welcome.
 
+## Forks
+
+https://github.com/t0mmysm1th/lxd-wordpress Tommy Smith has enhanced this script with more choice in the PHP version via the 3rd party SURY Repository, as well as self-signed SSL/TLS certificates, and some other niceties. These changes are particularly suited for deploying development or otherwise internal servers.
+
 ## License
 
 This project is licensed under the GNU GPLv2.
